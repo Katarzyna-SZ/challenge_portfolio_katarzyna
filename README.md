@@ -3,10 +3,16 @@
 Tu będzie opis
 
 ## Zadania praktyczne:
-1. Task 1 - Testu eksloracyjne
-2. Task 2 - Przypadki testowe
-3. Task 3 - Raportowanie błędów
-4. Task 4 - Testowanie aplikacji mobilnych
-5. Task 5 - SQL część 1
-6. Task 6 - SQL część 2
+
+📝[Task 1 - Testy eksploracyjne](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/blob/main/TASK1.md)
+
+📝Task 2 - Przypadki testowe
+
+📝Task 3 - Raportowanie błędów
+
+📝Task 4 - Testowanie aplikacji mobilnych
+
+📝Task 5 - SQL część 1
+
+📝Task 6 - SQL część 2
    
