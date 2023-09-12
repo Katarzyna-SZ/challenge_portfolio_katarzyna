@@ -39,9 +39,10 @@ Podstawowe funkcjonalności aplikacji:
   - funkcja dodania nowego gracza z okna znajdującego się na stronie głównej,
   - możliwość stworzenia rozbudowanego profilu gracza:
      * obowiązkowe pola do wypełnienia: imię, nazwisko, data urodzenia, główna pozycja.
-     * dodatkowe pola do wypełnienia: email, telefon, waga, wzrost, dominująca waga, pozycja alternatywna, poziom rozgrywek, województwo, osiągniecia, dodatkowa opcja dodania języka, możliwość dodania linka z youtube, pola zatytułowane *Łączy nas piłka*, *90 minut*, *profil facebook*.
+     * dodatkowe pola do wypełnienia: email, telefon, waga, wzrost, dominująca waga, pozycja alternatywna, poziom rozgrywek, województwo, osiągniecia, dodatkowa opcja dodania języka, możliwość dodania linka z youtube, 
+     pola zatytułowane *Łączy nas piłka*, *90 minut*, *profil facebook*.
   - funkcja edycji gracza, czyli edytowanie wczesniej zapisanych danych,
-  - funkcja dodaj mecz, pola do wypełnienia opisują rozgrywkę w której uczestniczył dany zawodnik:
+  - funkcja *dodaj mecz* - otwarcie nowego okna z formularzem - pola do wypełnienia opisują rozgrywkę w której uczestniczył dany zawodnik:
      * obowiązkowe pola do wypełnienia: drużyna zawodnika, drużyna przeciwna, zdobyte gole, utracone gole, data rozgrywki
      * dodatkowe pola do wypełnienia: meczy domowy, mecz wyjazdowy do zaznaczenia, kolor koszulki, liga, czas gry, numer, web match, general, recenzja
   - funkcja edytowania meczu, czyli informacji wcześniej zapisanych, dodatkowo poniżej pół do wypełnienia widnieje sekcja z *Lista zdarzeń*; brak informacji o możliwości edytowania
