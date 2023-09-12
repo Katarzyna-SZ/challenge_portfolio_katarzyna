@@ -6,7 +6,7 @@
 3. [Subtask 4 - Testy eksploracyjne: poznaj aplikację:](#subtask3)  
    - [Na czym polega ta aplikacja? Do czego służy?](#punkt1)
    - [Jakie funkcjonalności znajdują się w aplikacji? Do czego służą?Czy są intuicyjne, czy może byś coś zmienił_a?](#punkt2) 
-   - Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
+   - [Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?](#punkt3)
    - Czy aplikacja jest intuicyjna?
    - Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?     
 <hr>
@@ -49,8 +49,20 @@ Podstawowe funkcjonalności aplikacji:
   - funkcja dodatnia i edytowania raportu z rozgrywek,
   - funkcja *Rozpocznij mecz*, czyli stworzenie symulacji najważniejszych akcji mających miejsce podczas rozgrywki.
 
-📍Lista nieintuicyjnych funkcjonalności aplikacji + komentarz:
+📍Przykłady nieintuicyjnych funkcjonalności aplikacji + komentarz:
+  - funkcja *DODAJ GRACZA* dostępna jest z przypadkowego kafelka o nazwie *LINKI POMOCNICZE* znajdującego się na stronie głównej; *Opcja dodaj gracza w obecnym układzie strony powinna być dostępna z panelu bocznego 
+    znajdującego się po lewej stronie*;
+  - funkcja dodawania i edytowania gracza powinna zostać uproszczona, tak aby użytkownik mógł wybrać konkretny wariant z rozwijanej listy np: wybrać poziomy rozgrywek czy główna pozycja zawodnika; wszystko w celu 
+    ujednolicenia terminologii;
+  - dopiero po dodaniu gracza mamy dostęp do głównych funkcjonalności w panelu bocznym takich jak *Mecz (Dodaj mecz)* i *Raport (Dodaj raport)*; jednakże funkcja *Dodaj raport* nie działa z zakładki Raport -> po wybraniu 
+    kliknięciu w tekst *+ DODAJ RAPORT* użytkownik jest przekierowany do zakładki *Mecz* i dopiero z tego poziomu możemy dodać raport wybierając jedną z trzech *Akcji*;
+    
+    ![22](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/13d6d4be-1b9a-4de0-83aa-60b589cf90c6)
 
+  - funkcja *Rozpocznij mecz*, czyli edytowanie/symulowanie akcji zawodnika totalnie nieintuicyjna -> brak dokumentacji, brak legendy na stronie; *Użytkownik powinien mieć dostęp do klarownej instrukcji obsługi edytora 
+    wraz z objaśnieniem graficznym poszczególnych pół.*
+
+👉<a name='punkt3'> **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie??** </a>
 
 
 
