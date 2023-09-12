@@ -47,7 +47,11 @@ Podstawowe funkcjonalności aplikacji:
      * dodatkowe pola do wypełnienia: meczy domowy, mecz wyjazdowy do zaznaczenia, kolor koszulki, liga, czas gry, numer, web match, general, recenzja
   - funkcja edytowania meczu, czyli informacji wcześniej zapisanych, dodatkowo poniżej pół do wypełnienia widnieje sekcja z *Lista zdarzeń*; brak informacji o możliwości edytowania
   - funkcja dodatnia i edytowania raportu z rozgrywek,
-  - funkcja *Rozpocznij mecz*, czyli stworzenie symulacji najważniejszych akcji mających miejsce podczas meczu,
+  - funkcja *Rozpocznij mecz*, czyli stworzenie symulacji najważniejszych akcji mających miejsce podczas rozgrywki.
+
+Lista nieintuicyjnych funkcjonalności aplikacji + komentarz:
+
+  -podstawowa funkcjonalność
 
 
 
