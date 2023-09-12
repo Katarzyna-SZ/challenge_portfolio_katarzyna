@@ -49,9 +49,9 @@ Podstawowe funkcjonalności aplikacji:
   - funkcja dodatnia i edytowania raportu z rozgrywek,
   - funkcja *Rozpocznij mecz*, czyli stworzenie symulacji najważniejszych akcji mających miejsce podczas rozgrywki.
 
-Lista nieintuicyjnych funkcjonalności aplikacji + komentarz:
+📍Lista nieintuicyjnych funkcjonalności aplikacji + komentarz:
 
-  -podstawowa funkcjonalność
+
 
 
 
