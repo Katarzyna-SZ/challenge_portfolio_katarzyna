@@ -4,8 +4,8 @@
 1. [Subtask 1 - wynik testu](#subtask1)
 2. [Subtask 3 - Dlaczego zdecydował_ś się na udział w challenge portfolio?](#subtask2)
 3. [Subtask 4 - Testy eksploracyjne: poznaj aplikację:](#subtask3)  
-   - [Na czym polega ta aplikacja? Do czego służy?](punkt1)
-   - [Jakie funkcjonalności znajdują się w aplikacji? Do czego służą?Czy są intuicyjne, czy może byś coś zmienił_a?](punkt2) 
+   - [Na czym polega ta aplikacja? Do czego służy?](#punkt1)
+   - [Jakie funkcjonalności znajdują się w aplikacji? Do czego służą?Czy są intuicyjne, czy może byś coś zmienił_a?](#punkt2) 
    - Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
    - Czy aplikacja jest intuicyjna?
    - Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?     
