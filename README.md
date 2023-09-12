@@ -1,8 +1,8 @@
-# DAREIT Challenge portfolio 
+# DARE IT Challenge portfolio 
 
 Tu będzie opis
 
-## Zadania praktyczne:
+### Zadania praktyczne:
 
 📝[Task 1 - Testy eksploracyjne](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/blob/main/TASK1.md)
 
