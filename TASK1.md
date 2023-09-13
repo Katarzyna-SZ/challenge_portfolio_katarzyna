@@ -95,21 +95,34 @@ Na podstawie dotychczasowej eksploracji aplikaji uważam, że jest ona stanowczo
 
 ![27](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/b3628ef1-ffc2-44d9-be2b-986ccafda920)
 
- - Okno Logowania: pozycjonowanie przycisków/zmiana ich położenia po kliknięciu: przy błędnym wpisaniu hasła lub adresu email przycisk SIGN IN wchodzi na ramkę okna. 
+ - Okno Logowania: po błędnym wpisaniu hasła lub adresu email przycisk SIGN IN wchodzi na ramkę okna. 
  - Błędy w funkcjonalności *Dodaj gracza/Edytuj gracza* (powtarzalne w funkcjonalności *Dodaj mecz/Edytuj mecz*):
    - brak komunikatów walidacyjnych, aby poinformować użytkownika o konieczności wprowadzenia poprawnego formatu danych takich jak email, numer telefonu,
    - brak indykacji, że należy wprowadzić poprawną wartość liczbową,
    - brak ustanowionych minimalnych i maksymalnych wartości liczbowych odpowiednich dla poszczególnych pól, gdzie wymagane jest wpisanie wartości liczbowej,
-   - możliwość wpisywania licz w pola tekstowe i na odwrót,
+   - możliwość wpisywania liczb w pola tekstowe i na odwrót,
    - możliwość wpisywania minusowych wartości,
+   
+     ![28](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/725c17ca-21d7-4b0d-83ae-20c778fdd50e)
+
    - brak ustanowionych zakresów w opcji dodawania data (date picker), brak poprawnego formatowania dat,
    - brak możliwości wpisania tekstu w polu *Recenzja* (funkcja *Dodaj mecz*),
+   
+     ![31](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/f0db416c-22ce-479e-be78-cec849f00cb0)
+
    - w zakładce *EDYCJA MECZU*, sekcja *Lista zdarzeń* jest niemożliwa do edytowania; brak informacji skąd można edytować dane,
-   - przycisk *CLEAR* w *EDYCJI MECZU*, *EDYCJI GRACZA* są nieaktywne,
+   - przycisk *CLEAR* w *EDYCJI MECZU*, *EDYCJI GRACZA* jest nieaktywny,
    - linki wklejone w polach, gdzie możliwe jest ich dodanie zapisywane są jako nieaktywne,
-   - *EDYCJA MECZU* brak konkretnych komunikatów o błędzie i co go wywołało podczas zapisywania danych,
+   - podczas zapisywania danych w zakładce *Dodaj mecz* pojawia się ogólny komunikat o błędzie bez wskazania konkretnego miejsca w którym ten błąd występuje; konieczne dodatkowe komunikaty walidacyjne,
+
+     ![33](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/083ec5cc-fbcc-4a35-9a82-0c7e69a02ad7)
+
    - funkcja *+DODAJ RAPORT* z poziomu zakładki *RAPORTY* nie otwiera okna edycji raportu, zostajemy przekierowaniu do zakładki *MECZE* i dopiero z listy *Akcji* po prawej stronie wybieramy opcję *Dodaj Raport*,
-   - niemożliwe jest stworzenie raportu bez aktualizacji danych gracza - **dodania informacji *Województwo* w profilu gracza** - pole nie jest zaznaczone jako obowiązkowe; użytkownik kolejny raz musi wejść w profil gracza, aby dodać potrzebną informację w celu wygenerowania raportu,
+   - niemożliwe jest stworzenie raportu bez aktualizacji danych gracza - **dodania informacji *Województwo* w profilu gracza** - pole nie jest zaznaczone jako obowiązkowe; użytkownik kolejny raz musi wejść w profil gracza, aby dodać potrzebną informację w celu 
+     wygenerowania raportu,
+     
+     ![32](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/00240c31-edcf-4900-a41f-2f9185144231)
+
    - brak możliwości edycji *DANYCH STATYSTYCZNYCH* w wygenerowanym raporcie (w przeciwieństwie do pozostałych punktów raportu oraz pola z komentarzami po lewej).
      
 
