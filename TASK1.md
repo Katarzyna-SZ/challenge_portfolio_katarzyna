@@ -5,7 +5,7 @@
 2. [Subtask 3 - Dlaczego zdecydował_ś się na udział w challenge portfolio?](#subtask2)
 3. [Subtask 4 - Testy eksploracyjne: poznaj aplikację:](#subtask3)  
    - [Na czym polega ta aplikacja? Do czego służy?](#punkt1)
-   - [Jakie funkcjonalności znajdują się w aplikacji? Do czego służą?Czy są intuicyjne, czy może byś coś zmienił_a?](#punkt2) 
+   - [Jakie funkcjonalności znajdują się w aplikacji? Do czego służą? Czy są intuicyjne, czy może byś coś zmienił_a?](#punkt2) 
    - [Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?](#punkt3)
    - [Czy aplikacja jest intuicyjna?](#punkt4)
    - [Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?](#punkt5)     
@@ -61,6 +61,7 @@ Podstawowe funkcjonalności aplikacji:
 
   - funkcja *Rozpocznij mecz*, czyli edytowanie/symulowanie akcji zawodnika totalnie nieintuicyjna -> brak dokumentacji, brak legendy na stronie; *Użytkownik powinien mieć dostęp do klarownej instrukcji obsługi edytora 
     wraz z objaśnieniem graficznym poszczególnych pół.*
+  - brakuje funkcji drukowania raportów oraz profili graczy ze wszystkimi zebranymi informacjami na ich temat.
 
 👉<a name='punkt3'> **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie??** </a>
 
@@ -69,16 +70,16 @@ Podstawowe funkcjonalności aplikacji:
 
 Główne mankamenty interfejsu aplikacji:
  - strona główna aplikacji składa się z przypadkowo ułożonych kafelek, 
- - przypadkowe umiejscowienie logo w niepoprawnym formacie
- - projekt graficzny interfejsu w ogóle nie nawiązuje do przedstawionego logo -> brak headera
- - pod logiem znajduje się link do Dev Team kontakt, który jest odnośnikiem do Slacka -> strona powinna zawierać stopkę z podstawową nawigacją
+ - przypadkowe umiejscowienie logo w niepoprawnym formacie,
+ - projekt graficzny interfejsu w ogóle nie nawiązuje do przedstawionego logo -> brak headera,
+ - pod logiem znajduje się link do Dev Team kontakt, który jest odnośnikiem do Slacka -> strona powinna zawierać stopkę z podstawową nawigacją,
  - przyciski w edytorach graczy i meczów nie mają zróżnicowanej hierarchii, 
  - brakuje odstępów i marginesów,
  - aplikacja nie jest responsywna (test na podstawie Toggle device toolbar); okna nie skalują się poprawnie, utrudniona nawigacja.
 
 👉<a name='punkt4'> **Czy aplikacja jest intuicyjna?** </a>
 
-Na podstawie dotychczasowej eksploracji aplikaji uważam, że jest ona stanowczo mało intuicyjna. Używanie podstawowych funkcjonalności z poziomów innych niż boczna nawiagcja było uciążliwe. Ze względu na brak dokumentacji trudno było zrozumieć konieczność niektórych pól do uzupełnienia w profilu gracza oraz przy edycji meczu. Najmniej intuicyjną funkcjonalnością okazała się akcja *Rozpocznij mecz* z poziomu zakładki *Mecze*. Dopiero przypadkowe kliknięcia uruchamiały akcje, których w ostateczności nie byłam w stanie zrozumiec i edytować. 
+Na podstawie dotychczasowej eksploracji aplikaji uważam, że jest ona stanowczo mało intuicyjna. Używanie podstawowych funkcjonalności z poziomów innych niż boczna nawigacja jest uciążliwe. Ze względu na brak dokumentacji trudno jest mi zrozumieć zasadność niektórych pól do uzupełnienia w profilu gracza oraz przy edycji meczu. Najmniej intuicyjną funkcjonalnością okazała się akcja *Rozpocznij mecz* z poziomu zakładki *Mecze*. Dopiero przypadkowe kliknięcia uruchamiały akcje, których w ostateczności nie byłam w stanie zrozumiec i edytować. 
 
 👉<a name='punkt5'> **Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?** </a>
 
