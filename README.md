@@ -1,7 +1,7 @@
 # DARE IT challenge portfolio 🎯
 
 **Testowanie manulne w praktyce** - 7 tygodniowy challenge organizowany przez [DARE IT](https://www.dareit.io/challenges/qa-manual-testing). 
-Główne założenia projektu -> stworzenie portoflio juniora. **6 zadań technicznych** składających się na całość **QA Manual Testing**. 
+Główne założenia projektu -> stworzenie portfolio juniora. **6 zadań technicznych** składających się na całość **QA Manual Testing**. 
 
 ### Zadania praktyczne:
 
