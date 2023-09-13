@@ -82,6 +82,55 @@ Na podstawie dotychczasowej eksploracji aplikaji uważam, że jest ona stanowczo
 
 👉<a name='punkt5'> **Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?** </a>
 
+ - Brak możliwości sprawdzenia funkcjonalności zakładania nowego konta.
+ - Brak możliwości usunięcia zawodnika z bazy.
+ - Błędy językowe:
+     - literówka w kafelku z listą ostatnich aktywności,
+     - mimo wybranego języka PL teksty pod niektórymi polami nadal wyświetlają się po angielsku np. teksty walidacyjne, przyciski akcji nie są tłumaczone, oryginalna nazwa aplikacji, niektóra pola do wypełnienia, 
+     - możliwe błędy w tłumaczeniu strony na angielski, nieumiejętne zastosowanie dosłownego tłumaczenia zamiast poprawnej terminologii w danym języku
+
+![25](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/6070b44d-552a-4d73-b0cc-3c09c99811fa) ![26](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/fcfb2723-2c7c-4ca6-8c63-6a69ab9252b4)
+
+![24](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/2c8b4f9c-8a2c-4008-be6f-3dea58cf01bd) 
+
+![27](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/b3628ef1-ffc2-44d9-be2b-986ccafda920)
+
+ - Okno Logowania: pozycjonowanie przycisków/zmiana ich położenia po kliknięciu: przy błędnym wpisaniu hasła lub adresu email przycisk SIGN IN wchodzi na ramkę okna. 
+ - Błędy w funkcjonalności *Dodaj gracza/Edytuj gracza* (powtarzalne w funkcjonalności *Dodaj mecz/Edytuj mecz*):
+   - brak komunikatów walidacyjnych, aby poinformować użytkownika o konieczności wprowadzenia poprawnego formatu danych takich jak email, numer telefonu,
+   - brak indykacji, że należy wprowadzić poprawną wartość liczbową,
+   - brak ustanowionych minimalnych i maksymalnych wartości liczbowych odpowiednich dla poszczególnych pól, gdzie wymagane jest wpisanie wartości liczbowej,
+   - możliwość wpisywania licz w pola tekstowe i na odwrót,
+   - możliwość wpisywania minusowych wartości,
+   - brak ustanowionych zakresów w opcji dodawania data (date picker), brak poprawnego formatowania dat,
+   - brak możliwości wpisania tekstu w polu *Recenzja* (funkcja *Dodaj mecz*),
+   - w zakładce *EDYCJA MECZU*, sekcja *Lista zdarzeń* jest niemożliwa do edytowania; brak informacji skąd można edytować dane,
+   - przycisk *CLEAR* w *EDYCJI MECZU*, *EDYCJI GRACZA* są nieaktywne,
+   - linki wklejone w polach, gdzie możliwe jest ich dodanie zapisywane są jako nieaktywne,
+   - *EDYCJA MECZU* brak konkretnych komunikatów o błędzie i co go wywołało podczas zapisywania danych,
+   - funkcja *+DODAJ RAPORT* z poziomu zakładki *RAPORTY* nie otwiera okna edycji raportu, zostajemy przekierowaniu do zakładki *MECZE* i dopiero z listy *Akcji* po prawej stronie wybieramy opcję *Dodaj Raport*,
+   - niemożliwe jest stworzenie raportu bez aktualizacji danych gracza - **dodania informacji *Województwo* w profilu gracza** - pole nie jest zaznaczone jako obowiązkowe; użytkownik kolejny raz musi wejść w profil gracza, aby dodać potrzebną informację w celu wygenerowania raportu,
+   - brak możliwości edycji *DANYCH STATYSTYCZNYCH* w wygenerowanym raporcie (w przeciwieństwie do pozostałych punktów raportu oraz pola z komentarzami po lewej),
+   - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
