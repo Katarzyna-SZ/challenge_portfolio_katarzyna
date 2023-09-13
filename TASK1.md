@@ -110,8 +110,8 @@ Na podstawie dotychczasowej eksploracji aplikaji uważam, że jest ona stanowczo
    - *EDYCJA MECZU* brak konkretnych komunikatów o błędzie i co go wywołało podczas zapisywania danych,
    - funkcja *+DODAJ RAPORT* z poziomu zakładki *RAPORTY* nie otwiera okna edycji raportu, zostajemy przekierowaniu do zakładki *MECZE* i dopiero z listy *Akcji* po prawej stronie wybieramy opcję *Dodaj Raport*,
    - niemożliwe jest stworzenie raportu bez aktualizacji danych gracza - **dodania informacji *Województwo* w profilu gracza** - pole nie jest zaznaczone jako obowiązkowe; użytkownik kolejny raz musi wejść w profil gracza, aby dodać potrzebną informację w celu wygenerowania raportu,
-   - brak możliwości edycji *DANYCH STATYSTYCZNYCH* w wygenerowanym raporcie (w przeciwieństwie do pozostałych punktów raportu oraz pola z komentarzami po lewej),
-   - 
+   - brak możliwości edycji *DANYCH STATYSTYCZNYCH* w wygenerowanym raporcie (w przeciwieństwie do pozostałych punktów raportu oraz pola z komentarzami po lewej).
+     
 
 
 
