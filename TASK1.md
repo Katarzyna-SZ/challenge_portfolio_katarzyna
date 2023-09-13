@@ -64,6 +64,19 @@ Podstawowe funkcjonalności aplikacji:
 
 👉<a name='punkt3'> **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie??** </a>
 
+   Na ten moment interfejs aplikacji nie wygląda na zaprojektowany. Rekomendowałabym przeprowadzić audyt interfejsu pod względem UX/UI, stworzyć od nowa makietę produktu oraz zaprojektować atrakcyjną pod względem graficznym stronę główną wraz z oknami z poszczególnymi 
+   funkcjonalnościami.
+
+Główne mankamenty interfejsu aplikacji:
+ - strona główna aplikacji składa się z przypadkowo ułożonych kafelek, 
+ - przypadkowe umiejscowienie logo w niepoprawnym formacie
+ - projekt graficzny interfejsu w ogóle nie nawiązuje do przedstawionego logo -> brak headera
+ - pod logiem znajduje się link do Dev Team kontakt, który jest odnośnikiem do Slacka -> strona powinna zawierać stopkę z podstawową nawigacją
+ - przyciski w edytorach graczy i meczów nie mają zróżnicowanej hierarchii, 
+ - brakuje odstępów i marginesów,
+ - aplikacja nie jest responsywna (test na podstawie Toggle device toolbar); okna nie skalują się poprawnie, utrudniona nawigacja.
+
+
 
 
 
