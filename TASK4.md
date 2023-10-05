@@ -1,6 +1,6 @@
 # TASK 4 📲 
 
-### 1. Subtask 2 - Exploratory testing and bug reporting.
+### ☑️ Subtask 2 - Exploratory testing and bug reporting.
 
 Exploratory testing of [OLX App](https://play.google.com/store/apps/details?id=pl.tablica&hl=pl&gl=US&pli=1) - a platform for buying and selling services and goods.
   - **Mobile Operating System:** Android
