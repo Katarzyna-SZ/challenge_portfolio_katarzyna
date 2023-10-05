@@ -11,7 +11,7 @@ Główne założenia projektu -> stworzenie portfolio juniora. **6 zadań techni
 
 📝[Task 3 - Raportowanie błędów](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/blob/main/TASK3.md)
 
-📝Task 4 - Testowanie aplikacji mobilnych
+📝[Task 4 - Testowanie aplikacji mobilnych](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/blob/main/TASK4.md)
 
 📝Task 5 - SQL część 1
 
