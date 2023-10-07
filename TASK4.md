@@ -62,6 +62,24 @@ Na podstawie szybkich testów eksploracyjnych stwierdzam, że aplikacja jest dob
 - Podbijając poprzedni punkt: real-time chat translation.
 - Możliwość zweryfikowania seryjnego sprzedawcy i jego walidacja przez wprowadzenie “Odznaki” uczciwego sprzedawcy.
 
+ 🖥️ vs. 📱 <a name='punkt4'> **Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?** </a>
+
+- Główną różnicą w testowaniu aplikacji internetowych i natywnych to **platforma i środowisko**. Aplikacje natywne 
+  tworzone są dla określonej platformy np. iOS lub Android, natomiast aplikacja webowa dostęna jest przez przeglądarkę 
+  internetową, a więc testujemy na różnych przeglądarkach i platformach. 
+- Aplikacje natywne szerzej korzystają z funkcji urządzenia np. aparat. kontakty, lokalizacja, więc weryfikujemy czy te 
+  funkcje działaja poprawnie. Są instalowane na urządzeniu użytkownika, wieć potrzebujemy konkretne urządzenie (pomijam 
+  celowo symulatory), by przetestowac proces instalacji i aktualizacji
+- Na pewno testy wydajności dają inne wyniki, pnieważ aplikacjie natywne zazwyczaj mają lepsza reaktywność, jako że są 
+  zoptymalizowane do pracy pod kątem konkretnej platformy.
+- Aplikacje webowe są dostępne online, wymagane jest połączenie z internetem.
+- Testowanie interfejsu użytkownika i doświadczenia różni się ze względu na wzorce interakcji i projekt graficzny.
+- Podczas testowania webowego szerzej testuje się kompatybilność aplikacji, ponieważ ta musi działać na różnych 
+  przeglądarkach internetowych i urządzeniach.
+- Różnice w testowaniu aplikacji webowych i natywnych mogą być widoczne w doborze narzędzi testowcyh np. frameworków przy 
+  automatyzacji testów, które będą stanowiły większy procent przy testowaniu aplikacji natwynych.
+
+
 
 
 
