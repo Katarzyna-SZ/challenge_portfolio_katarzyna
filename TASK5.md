@@ -23,19 +23,75 @@
 
 📌**Baza danych wykorzystana do wykonania ćwiczeń:** [AdventureWorks2014](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
-👉 Zad. 1 Wyświetl wszystkie produkty (tabela Production.Product) kolory czarnego, posortowane malejąco wg ceny (ListPrice).
+👉 **Zad. 1** Wyświetl wszystkie produkty (tabela Production.Product) kolory czarnego, posortowane malejąco wg ceny (ListPrice).
 
-**SELECT * FROM Production.Product
+```sql
+SELECT * FROM Production.Product
 WHERE Color = 'Black'
-ORDER BY ListPrice DESC**
+ORDER BY ListPrice DESC
+```
+👉 **Zad. 2** Wyświetl wszystkie produktu koloru czerwonego i niebieskiego, których nazwa zaczyna się na 'L', posortowane wg rozmiaru malejąco i ceny rosnąco.
 
-![1](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/8613df7f-599f-458d-923a-b837e54d3f45)
-
-👉 Zad 2. Wyświetl wszystkie produktu koloru czerwonego i niebieskiego, których nazwa zaczyna się na 'L', posortowane wg rozmiaru malejąco i ceny rosnąco.
-
-**SELECT * FROM Production.Product
+```sql
+SELECT * FROM Production.Product
 WHERE Color IN ('Red', 'Blue') AND Name LIKE 'L%'
-ORDER BY Size DESC, ListPrice ASC**
+ORDER BY Size DESC, ListPrice ASC
+```
+👉 **Zad. 3** Wyświetl wiesze z tabeli Sales.SalesTerritory, przypisane do Europy, posortowane wg nazwy kraju.
 
+```sql
+SELECT * FROM Sales.SalesTerritory
+WHERE [Group] = 'Europe'
+ORDER BY Name
+```
+👉 **Zad. 4** Wyświetl wiersze z tabeli Sales.SalesTerritory, posortowane wg grupy regionów (kontynentów) i nazwy kraju rosnąco.
 
+```sql
+SELECT * FROM Sales.SalesTerritory
+ORDER BY Name, [Group] DESC
+```
+
+👉 **Zad. 5** Wyświetl zamówienia przypisane do obszarów o identyfikatorach 7,8,9.
+
+```sql
+SELECT * FROM Sales.SalesOrderHeader
+WHERE TerritoryID IN (7, 8, 9)
+```
+
+👉 **Zad. 6** Wyświetl 10 ostatnich zamówień, przypisanych do obszarów o identyfikatorach 7, 8, 9 o wartości (kolumna SubTotal) mniejszej niż 100, posortowane wg daty (OrderDate).
+
+```sql
+SELECT TOP 10 * FROM Sales.SalesOrderHeader
+WHERE TerritoryID IN (7, 8, 9) AND SubTotal <100
+ORDER BY OrderDate
+```
+👉 **Zad. 7** Wyświetl 10 zamówień na najwyższą kwotę, przypisanych do obszaru 7.
+
+```sql
+SELECT TOP 10 * FROM Sales.SalesOrderHeader
+WHERE TerritoryID = 7
+ORDER BY SubTotal DESC
+```
+
+👉 **Zad. 8** Wyświetl zamówienia przypisane do obszaru 7, bez przypisanego numeru karty kredytowej (kolumna CreditCardID).
+
+```sql
+SELECT * FROM Sales.SalesOrderHeader
+WHERE TerritoryID = 7 AND CreditCardID IS NULL
+```
+
+👉 **Zad. 9** Wyświetl zamówienia przyposanych do obszaru 7, z przypisanym numerem karty kredytowej.
+
+```sql
+SELECT * FROM Sales.SalesOrderHeader
+WHERE TerritoryID = 7 AND CreditCardID IS NOT NULL
+```
+
+👉 **Zad. 10** Wyświetl zamówienia z roku 2011, posortuj wg daty zamówienia.
+
+```sql
+SELECT * FROM Sales.SalesOrderHeader
+WHERE OrderDate BETWEEN '20110101' AND '20111231'
+ORDER BY OrderDate
+```
 
