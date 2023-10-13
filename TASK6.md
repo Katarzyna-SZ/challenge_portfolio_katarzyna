@@ -48,7 +48,7 @@ ORDER BY sale_date DESC
 
 Dodanie kolumny | Wypełnienie kolumny 
 --- | --- 
-```sql ALTER TABLE customers ADD pseudonym varchar (3)``` | ```sql UPDATE customers SET pseudonym = CONCAT(SUBSTRING(name, 1, 2), RIGHT(surname, 1))```
+```ALTER TABLE customers ADD pseudonym varchar (3)``` | ```UPDATE customers SET pseudonym = CONCAT(SUBSTRING(name, 1, 2), RIGHT(surname, 1))```
 ![5a](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/f5dd7716-beea-4427-b5ad-76b4d202b5d8) | ![5](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/23372472-5d03-414a-a828-bfbb477e0e41)
 
 👉 **Zad. 16**
