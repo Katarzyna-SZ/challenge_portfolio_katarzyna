@@ -15,5 +15,5 @@ Główne założenia projektu -> stworzenie portfolio juniora. **6 zadań techni
 
 📝[Task 5 - SQL część 1](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/blob/main/TASK5.md)
 
-📝Task 6 - SQL część 2
+📝[Task 6 - SQL część 2](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/blob/main/TASK6.md)
    
