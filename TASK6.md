@@ -1,6 +1,6 @@
 # TASK 6 🏁
 
-### ☑️ Subtask 1 - kontunacja zapytań SQL (level wyżej).
+### ☑️ Subtask 1 - kontyunacja zapytań SQL (level wyżej).
 
 📌**Pakiet Xampp**
 
@@ -33,7 +33,7 @@ WHERE customer_id = 4
 ```
 ![3](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/991671ac-2bf0-4935-9447-cacfb77aecc7)
 
-👉 **Zad. 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
+👉 **Zad. 14 Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
 ```sql
 SELECT customers.name, customers.surname, sale.sale_date, movies.title 
@@ -43,3 +43,12 @@ INNER JOIN movies ON sale.movie_id = movies.movie_id)
 ORDER BY sale_date DESC
 ```
 ![4](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/4bd3dc72-193c-4010-93bb-179478697670)
+
+👉 **Zad. 15 W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
+
+Dodanie kolumny | Wypełnienie kolumny 
+--- | --- 
+```sql ALTER TABLE customers ADD pseudonym varchar (3)``` | ```sql UPDATE customers SET pseudonym = CONCAT(SUBSTRING(name, 1, 2), RIGHT(surname, 1))```
+![5a](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/f5dd7716-beea-4427-b5ad-76b4d202b5d8) | ![5](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/23372472-5d03-414a-a828-bfbb477e0e41)
+
+👉 **Zad. 16**
