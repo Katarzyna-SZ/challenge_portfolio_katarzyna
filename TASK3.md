@@ -7,5 +7,5 @@
 👉 [Link to Google Drive Disk with Subtask 2](https://docs.google.com/spreadsheets/d/1XJAE5RXNxEZNF6pUqKIkV7mDQfn1y6awz9Qq3oigNvo/edit#gid=0)
 
 ### ☑️ Subtask 3 - Test report.
-👉 [Link to Google Drive Disk with Subtask 3](https://drive.google.com/drive/u/1/folders/1LQ28Z-9QHES4MQxBwAEvkPqjOHOtPwP3)
+👉 [Link to Google Drive Disk with Subtask 3](https://docs.google.com/document/d/10qzAqyqYqPUVxmw-TunMaJNJh9bce_4OZtTP8IZ1484/edit)
 
