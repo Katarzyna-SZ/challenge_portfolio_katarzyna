@@ -68,7 +68,7 @@ SELECT name FROM customers ORDER BY name ASC
 ```
 ![7](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/62b9c519-8a62-4c21-931b-21501727d08a)
 
-👉 **Zad. 17 Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
+👉 **Zad. 18 Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
 
 ```sql
 UPDATE movies SET price = CONCAT(price + 2.5) WHERE year_of_production > 2000
@@ -76,3 +76,21 @@ UPDATE movies SET price = CONCAT(price + 2.5) WHERE year_of_production > 2000
 Cena wypożyczenia filmów przed podwyżką | Cena wypożyczenia filmów po podwyżce
 --- | --- 
 ![8a](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/08c723f6-f029-4652-964d-89f7ddfdebd0) | ![8B](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/9b8a18ca-c94c-4368-9bee-13c288bafb37)
+
+👉 **Zad. 19 Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.**
+
+```sql
+SELECT a.actor_id, a.name, a.surname, m.title FROM actors a 
+JOIN cast c ON c.actor_id = a.actor_id 
+JOIN movies m ON m.movie_id = c.movie_id 
+WHERE a.actor_id = 4;
+```
+![9](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/e3da41b9-6869-4017-8ef3-8cca9ed767d9)
+
+👉 **Zad. 20 A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
+
+```sql
+INSERT INTO customers (customer_id, name, surname, email, pseudonym) 
+VALUES (7, 'Honia', 'Sztuczka-Kucharska', 'honia@email.com', 'Hoa')
+```
+![10](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/165781c4-6b78-423c-8171-f89e2f24dc8f)
