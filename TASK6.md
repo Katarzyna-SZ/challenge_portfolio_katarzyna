@@ -51,4 +51,28 @@ Dodanie kolumny | Wypełnienie kolumny
 ```ALTER TABLE customers ADD pseudonym varchar (3)``` | ```UPDATE customers SET pseudonym = CONCAT(SUBSTRING(name, 1, 2), RIGHT(surname, 1))```
 ![5a](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/f5dd7716-beea-4427-b5ad-76b4d202b5d8) | ![5](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/23372472-5d03-414a-a828-bfbb477e0e41)
 
+👉 **Zad. 16 Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
+```sql
+SELECT DISTINCT title FROM movies 
+JOIN sale ON movies.movie_id = sale.movie_id
+```
+![6](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/e15298f5-b3e2-412f-a61f-62c8b6d3e61f)
+
+👉 **Zad. 17 Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).**
+
+```sql
+SELECT name FROM actors 
+UNION 
+SELECT name FROM customers ORDER BY name ASC
+```
+![7](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/62b9c519-8a62-4c21-931b-21501727d08a)
+
+👉 **Zad. 17 Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
+
+```sql
+UPDATE movies SET price = CONCAT(price + 2.5) WHERE year_of_production > 2000
+```
+Cena wypożyczenia filmów przed podwyżką | Cena wypożyczenia filmów po podwyżce
+--- | --- 
+![8a](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/08c723f6-f029-4652-964d-89f7ddfdebd0) | ![8B](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/9b8a18ca-c94c-4368-9bee-13c288bafb37)
