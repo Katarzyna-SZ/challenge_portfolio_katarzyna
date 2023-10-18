@@ -94,3 +94,7 @@ INSERT INTO customers (customer_id, name, surname, email, pseudonym)
 VALUES (7, 'Honia', 'Sztuczka-Kucharska', 'honia@email.com', 'Hoa')
 ```
 ![10](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/165781c4-6b78-423c-8171-f89e2f24dc8f)
+
+### ☑️ Subtask 2 - Test: [pytania z zakresu sylabusa ISTQB](https://getistqb.com/#quizzes), test ECRU.
+
+Wynik testu: 14/15 💪🏻
