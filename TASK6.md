@@ -18,11 +18,11 @@ WHERE customer_id = 3
 👉 **Zad. 12 Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
 
 ```sql
-SELECT * FROM customers
+SELECT name, email FROM customers
 JOIN sale ON customers.customer_id = sale.customer_id
 WHERE movie_id = 4
 ```
-![2](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/9519f93e-5d31-45e9-bad4-81d34c46876b)
+![2](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/9dab61b0-9347-4ede-ac44-5ff810d1dca4)
 
 👉 **Zad. 13 Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
