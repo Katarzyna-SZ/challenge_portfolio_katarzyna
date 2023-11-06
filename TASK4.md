@@ -1,12 +1,13 @@
 # TASK 4 📲 
     
 ### Spis treści:
-1. [Subtask 2 - Subtask 2 - Testowanie eksploracyjne i raportowanie błędów.](#subtask2)
-2. [Subtask 3 - Subtask 3 - Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?](#subtask3)   
+1. [Subtask 2 - Testowanie eksploracyjne i raportowanie błędów.](#subtask2)
+2. [Subtask 3 - Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?](#subtask3)   
    - [Kto ma być użytkownikiem końcowym aplikacji?](#punkt1) 
    - [Czy według Ciebie aplikacja jest user friendly?](#punkt2)
    - [Jak byś usprawnił aplikację? Czy masz jakiś pomysł na dodatkową funkcjonalność?](#punkt3)
-   - [Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?](#punkt4)     
+   - [Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?](#punkt4)
+3. [Subtask 4 - Raportowanie błędów w Jira. Testowanie aplikacji webowej i mobilnej.](#subtask4)     
 <hr>
 
 ### <a name='subtask2'>☑️ Subtask 2 - Testowanie eksploracyjne i raportowanie błędów </a>
@@ -78,6 +79,57 @@ Na podstawie szybkich testów eksploracyjnych stwierdzam, że aplikacja jest dob
   przeglądarkach internetowych i urządzeniach.
 - Różnice w testowaniu aplikacji webowych i natywnych mogą być widoczne w doborze narzędzi testowcyh np. frameworków przy 
   automatyzacji testów, które będą stanowiły większy procent przy testowaniu aplikacji natwynych.
+
+### <a name='subtask4'>☑️ Subtask 4 - Raportowanie błędów w Jira. Testowanie aplikacji webowej i mobilnej. </a>
+
+👉Testowanie eksploracyjne aplikacji webowej [SwipeTo](https://swipeto.pl/)
+ - **System:** Windows 10 Home 
+ - **Przeglądarka:**  Google Chrome Wersja 118.0.5993.120 (Oficjalna wersja) (64-bitowa)
+  - **Czas testowania:** 1h
+
+**Zgłoszenia błędów:**
+
+❌ **DCIP-02** - Przycisk "Wczytaj więcej" nie wyświetla się na całą stronę wg wzorca.
+![DICP-2](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/1eecc7f3-bb30-4e56-a676-3dbd9271f037)
+Link do załącznika:
+
+❌ **DCIP-03** - Nie można potwierdzić akcji filtrowania treści za pomocą przycisku klawiszowego "Enter".
+![DICP-3](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/c1762471-4114-4569-8e19-dcc0f784d26e)
+Link do załącznika:
+
+❌ **DCIP-05** Czas przesłuchanej treści podcastu nie zapisuje się.
+![DICP-5](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/b5213d6c-b437-4c5b-80ec-ac6d1e1ca497)
+Link do załącznika:
+
+<hr>
+
+👉Testowanie eksploracyjne aplikacji mobilnej [SwipeTo - Sklep Play](https://play.google.com/store/apps/details?id=pl.swipeto&hl=pl&gl=US)
+  - **System operacyjny:** Android
+  - **Urządzenie mobilne:** Sony Xperia XZ1 G8342
+  - **Czas testowania:** 1h
+
+**Zgłoszenia błędów:**
+
+❌ **DCIP-06** - Brak możliwości zalogowania się przez konto Google.
+![DICP-6](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/82f19d44-1d38-4801-82c1-2367fa889bb2)
+Link do załącznika:
+
+❌ **DCIP-07** - Brak możliwości zalogowania się do aplikacji.
+![DICP-7](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/99b91d4d-72ff-434e-a76f-199d000e1040)
+Link do załącznika:
+
+❌ **DCIP-08** - Funkcja przypominania hasła nie działa.
+![DICP-8](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/92387437-8dcd-4e76-9679-dda7f550f5bf)
+Link do załącznika:
+
+❌ **DCIP-09** - Brak możliwości zarejestrowania nowego konta.
+![DICP-9](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/09f139dc-835d-42b4-ab5f-7893238906f3)
+Link do załącznika:
+
+❌ **DCIP-10** - Brak możliwości użycia przycisku: Polub to, Obserwuj autora, Dodaj do ulubionych.
+![DICP-10](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/0bb9cfd1-2bf6-4a1d-bb80-cfd3f2f53ac5)
+Błąd jest powiązany z błędem **DCIP-06** i **DCIP-07**. Link do załącznika:
+
 
 
 
