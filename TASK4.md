@@ -10,7 +10,7 @@
 3. [Subtask 4 - Raportowanie błędów w Jira. Testowanie aplikacji webowej i mobilnej.](#subtask4)
    - [DCIP-02 - Przycisk "Wczytaj więcej" nie wyświetla się na całą stronę wg wzorca.](#punkt5)
    - [DCIP-03 - Nie można potwierdzić akcji filtrowania treści za pomocą przycisku klawiszowego "Enter".](#punkt6)
-   - [DCIP-05 Czas przesłuchanej treści podcastu nie zapisuje się.](#punkt7)
+   - [DCIP-05 - Czas przesłuchanej treści podcastu nie zapisuje się.](#punkt7)
    - [DCIP-06 - Brak możliwości zalogowania się przez konto Google.](#punkt8)
    - [DCIP-07 - Brak możliwości zalogowania się do aplikacji.](#punkt9)
    - [DCIP-08 - Funkcja przypominania hasła nie działa.](#punkt10)
