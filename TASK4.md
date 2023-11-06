@@ -7,7 +7,15 @@
    - [Czy według Ciebie aplikacja jest user friendly?](#punkt2)
    - [Jak byś usprawnił aplikację? Czy masz jakiś pomysł na dodatkową funkcjonalność?](#punkt3)
    - [Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?](#punkt4)
-3. [Subtask 4 - Raportowanie błędów w Jira. Testowanie aplikacji webowej i mobilnej.](#subtask4)     
+3. [Subtask 4 - Raportowanie błędów w Jira. Testowanie aplikacji webowej i mobilnej.](#subtask4)
+   - [DCIP-02 - Przycisk "Wczytaj więcej" nie wyświetla się na całą stronę wg wzorca.](#punkt5)
+   - [DCIP-03 - Nie można potwierdzić akcji filtrowania treści za pomocą przycisku klawiszowego "Enter".](#punkt6)
+   - [DCIP-05 Czas przesłuchanej treści podcastu nie zapisuje się.](#punkt7)
+   - [DCIP-06 - Brak możliwości zalogowania się przez konto Google.](#punkt8)
+   - [DCIP-07 - Brak możliwości zalogowania się do aplikacji.](#punkt9)
+   - [DCIP-08 - Funkcja przypominania hasła nie działa.](#punkt10)
+   - [DCIP-09 - Brak możliwości zarejestrowania nowego konta.](#punkt11)
+   - [DCIP-10 - Brak możliwości użycia przycisku: Polub to, Obserwuj autora, Dodaj do ulubionych.](#punkt12)  
 <hr>
 
 ### <a name='subtask2'>☑️ Subtask 2 - Testowanie eksploracyjne i raportowanie błędów </a>
@@ -89,15 +97,15 @@ Na podstawie szybkich testów eksploracyjnych stwierdzam, że aplikacja jest dob
 
 **Zgłoszenia błędów:**
 
-❌ **DCIP-02** - Przycisk "Wczytaj więcej" nie wyświetla się na całą stronę wg wzorca.
+<a name='punkt5'>❌ **DCIP-02** - Przycisk "Wczytaj więcej" nie wyświetla się na całą stronę wg wzorca.</a>
 ![DICP-2](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/1eecc7f3-bb30-4e56-a676-3dbd9271f037)
 Link do załącznika:
 
-❌ **DCIP-03** - Nie można potwierdzić akcji filtrowania treści za pomocą przycisku klawiszowego "Enter".
+<a name='punkt6'>❌ **DCIP-03** - Nie można potwierdzić akcji filtrowania treści za pomocą przycisku klawiszowego "Enter".</a>
 ![DICP-3](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/c1762471-4114-4569-8e19-dcc0f784d26e)
 Link do załącznika:
 
-❌ **DCIP-05** Czas przesłuchanej treści podcastu nie zapisuje się.
+<a name='punkt7'>❌ **DCIP-05** Czas przesłuchanej treści podcastu nie zapisuje się.</a>
 ![DICP-5](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/b5213d6c-b437-4c5b-80ec-ac6d1e1ca497)
 Link do załącznika:
 
@@ -110,23 +118,23 @@ Link do załącznika:
 
 **Zgłoszenia błędów:**
 
-❌ **DCIP-06** - Brak możliwości zalogowania się przez konto Google.
+<a name='punkt8'>❌ **DCIP-06** - Brak możliwości zalogowania się przez konto Google.</a>
 ![DICP-6](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/82f19d44-1d38-4801-82c1-2367fa889bb2)
 Link do załącznika:
 
-❌ **DCIP-07** - Brak możliwości zalogowania się do aplikacji.
+<a name='punkt9'>❌ **DCIP-07** - Brak możliwości zalogowania się do aplikacji.</a>
 ![DICP-7](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/99b91d4d-72ff-434e-a76f-199d000e1040)
 Link do załącznika:
 
-❌ **DCIP-08** - Funkcja przypominania hasła nie działa.
+<a name='punkt10'>❌ **DCIP-08** - Funkcja przypominania hasła nie działa.</a>
 ![DICP-8](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/92387437-8dcd-4e76-9679-dda7f550f5bf)
 Link do załącznika:
 
-❌ **DCIP-09** - Brak możliwości zarejestrowania nowego konta.
+<a name='punkt11'>❌ **DCIP-09** - Brak możliwości zarejestrowania nowego konta.</a>
 ![DICP-9](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/09f139dc-835d-42b4-ab5f-7893238906f3)
 Link do załącznika:
 
-❌ **DCIP-10** - Brak możliwości użycia przycisku: Polub to, Obserwuj autora, Dodaj do ulubionych.
+<a name='punkt12'>❌ **DCIP-10** - Brak możliwości użycia przycisku: Polub to, Obserwuj autora, Dodaj do ulubionych.</a>
 ![DICP-10](https://github.com/Katarzyna-SZ/challenge_portfolio_katarzyna/assets/140599598/0bb9cfd1-2bf6-4a1d-bb80-cfd3f2f53ac5)
 Błąd jest powiązany z błędem **DCIP-06** i **DCIP-07**. Link do załącznika:
 
